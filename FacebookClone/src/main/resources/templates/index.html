@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Facebook</title>
+</head>
+<body>
+	<h1>Welcome to Facebook!</h1>
+	<h3> Find Your friends</h3>
+	
+	<form action="/login" method="post">
+	 <label>USERNAME:</label>
+	<input type="text" name="username">
+	<h4 th:text=${message}></h4>
+	<label>PASSWORD:</label>
+	<input type="password" name="password">
+	<br><br>
+	<input type="submit" value="LOGIN">
+	<hr>
+	<a href="mapForgotPassword">Forgot password?</a>
+	<br>
+	<a href="mapRegisterPage">Create a new account..</a>
+	</form>
+	
+</body>
+</html>
